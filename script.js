@@ -5,7 +5,7 @@ function cargarContenido(seccion) {
     // Lógica para cargar contenido según la sección
     switch (seccion) {
         case "inicio":
-            contenido.innerHTML = "<h2>Bienvenido a la página educativa</h2><p>Explora nuestros recursos y aprende algo nuevo cada día.</p>";
+            contenido.innerHTML = "<h2>Bienvenido a la página educativa</h2><p>Explora nuestros recursos en Ingles y aprende algo nuevo cada día.</p>";
             break;
         case "recursos":
             contenido.innerHTML = "<h2>Recursos Educativos</h2><p>Aquí encontrarás una lista de recursos educativos que te ayudarán en tu aprendizaje.</p><ul><li><a href='#'>Recurso 1</a></li><li><a href='#'>Recurso 2</a></li><li><a href='#'>Recurso 3</a></li></ul>";
